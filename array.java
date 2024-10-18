@@ -26,26 +26,6 @@ public class array {
             }  
         }
         System.out.println("Sum of Elements divisible by 2 is : "+ sum);
-        int max = arr[0];
-        int min = arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-            }
-            if (arr[i] < min) {
-                min = arr[i];
-            }
-        }
-        System.out.println("Maximum element of an array : "+max);
-        System.out.println("Minimum element of an array : "+min);
-        int element =3;
-        int count=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]==element){
-                count++;
-            }
-        }
-        System.out.println("Occurence of 3 is : "+count);
     }
 }
        
